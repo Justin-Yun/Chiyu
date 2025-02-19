@@ -6,3 +6,4 @@ document.addEventListener("DOMContentLoaded", () => {
         text.style.opacity = "1";
     }, 500);
 });
+
