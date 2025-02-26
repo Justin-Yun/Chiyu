@@ -220,3 +220,35 @@ nav {
     padding: 12px 50px;
   }
 }
+
+.instagram-button {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+.instagram-button img {
+  width: 24px;
+  height: 24px;
+  background: none; /* Ensures no background */
+  border: none; /* Removes any border */
+  display: block; /* Prevents extra spacing */
+}
+
+.instagram-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.instagram-button:active {
+  transform: scale(0.95);
+}
