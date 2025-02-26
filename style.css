@@ -98,7 +98,7 @@ img {
   left: 0;
 }
 
-.button-50 {
+.button-01 {
   appearance: button;
   background-color: #000;
   border: 1px solid #000;
@@ -106,7 +106,6 @@ img {
   box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
   color: #fff;
   cursor: pointer;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
@@ -114,13 +113,13 @@ img {
   text-align: center;
 }
 
-.button-50:not([disabled]):active {
+.button-01:not([disabled]):active {
   box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-50 {
+  .button-01 {
     padding: 12px 50px;
   }
 }
