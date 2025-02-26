@@ -142,3 +142,20 @@ img {
     padding: 12px 50px;
   }
 }
+
+.video-container {
+  position: relative;
+  max-width: 60%; /* Adjust for desired width */
+  margin: auto;
+  padding-bottom: 40%; /* Decrease this value for a more rectangular shape */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
