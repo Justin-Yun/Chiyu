@@ -15,11 +15,11 @@ body {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
 
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -98,32 +98,6 @@ img {
   left: 0;
 }
 
-.button-01 {
-  appearance: button;
-  background-color: #000;
-  border: 1px solid #000;
-  border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
-  color: #fff;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  padding: 12px 40px;
-  text-align: center;
-}
-
-.button-01:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
-  transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  .button-01 {
-    padding: 12px 50px;
-  }
-}
-
 nav {
   margin-bottom: 3%; /* Adjust this value as needed */
 }
@@ -161,5 +135,88 @@ nav {
 
   100% {
     opacity: 1;
+  }
+}
+
+.button-01 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-01:after {
+  background-color: #ffffff;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.button-01:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-01:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-01:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-01 {
+    padding: 0 40px;
+  }
+}
+
+.button-02 {
+  appearance: button;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 12px 40px;
+  text-align: center;
+}
+
+.button-02:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-02 {
+    padding: 12px 50px;
   }
 }
