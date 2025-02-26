@@ -7,6 +7,15 @@ body {
   padding: 0;
 }
 
+.custom-body {
+  background-image: url('assets/gallery-images/gallery1.jpg');
+  color: white;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
