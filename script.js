@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 500);
 });
 
+//Remind Hannah make a GitHub Account 
