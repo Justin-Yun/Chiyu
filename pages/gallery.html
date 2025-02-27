@@ -22,11 +22,24 @@
 </nav>
 
 <body>
-  <div class="video-container">
-    <iframe class="fade-in" src="https://www.youtube.com/embed/gWkabqRG2rM" title="sometimes, we have to let go."
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="gallery-container">
+    <a data-fancybox="gallery" data-src="https://lipsum.app/id/2/1600x1200" data-caption="Optional caption">
+      <img src="https://lipsum.app/id/2/200x150" width="200" height="150" alt="" />
+    </a>
+
+    <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+      <img src="https://lipsum.app/id/3/200x150" width="200" height="150" alt="" />
+    </a>
+
+    <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1600x1200">
+      <img src="https://lipsum.app/id/4/200x150" width="200" height="150" alt="" />
+    </a>
+    </div>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>
   </div>
 </body>
 

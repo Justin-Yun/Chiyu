@@ -1459,6 +1459,14 @@ body {
     /* Slight zoom effect on hover */
     filter: brightness(1.2);
   }
+
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
   
   @keyframes fadeInAnimation {
     0% {
