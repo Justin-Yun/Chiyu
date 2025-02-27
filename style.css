@@ -1982,7 +1982,7 @@
   }
 }
 body {
-  background: linear-gradient(135deg, #fee6e3, #a0bfe0);
+  background: black;
   color: white;
   font-family: "Courier New", monospace;
   margin: 0;
@@ -2052,11 +2052,11 @@ footer {
 }
 .button-01 {
   align-items: center;
-  background-color: #fee6e3;
+  background-color: #6e402b;
   border: 2px solid #000000;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: #ffffff;
   cursor: pointer;
   font-family: "Courier New", monospace;
   font-size: 16px;
@@ -2073,7 +2073,7 @@ footer {
   touch-action: manipulation;
 }
 .button-01:after {
-  background-color: #2b2b2b;
+  background-color: #44271a;
   border-radius: 8px;
   content: "";
   display: block;
