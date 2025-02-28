@@ -89,9 +89,9 @@ footer {
 
 .home-btn img {
   width: 100%;
-  max-width: 400px; /* Set a maximum width if necessary */
+  max-width: 350px; /* Set a maximum width if necessary */
   height: auto; /* Maintain aspect ratio */
-  max-height: 150px;
+  max-height: 120px;
   cursor: pointer;
   border: none; /* Remove any border */
   padding: 0; /* Remove padding around the anchor tag */
