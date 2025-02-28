@@ -87,11 +87,23 @@ footer {
   padding: 0; /* Remove padding around the anchor tag */
 }
 
-.home-btn img {
+/*
+.home-btn img { /* Rectangle Logo
   width: 100%;
-  max-width: 350px; /* Set a maximum width if necessary */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 350px; 
+  height: auto; 
   max-height: 120px;
+  cursor: pointer;
+  border: none; 
+  padding: 0; 
+}
+*/
+
+.home-btn img { /* Square Logo*/
+  width: 100%;
+  max-width: 100px; /* Set a maximum width if necessary */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100px;
   cursor: pointer;
   border: none; /* Remove any border */
   padding: 0; /* Remove padding around the anchor tag */
